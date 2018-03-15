@@ -1,10 +1,5 @@
 # Capstone
 
-## Contributors 
-[Khyati Parekh](https://www.linkedin.com/in/khyatiparekh/)  
-[Niharika Sharma](https://www.linkedin.com/in/niharikasharma1/)   
-[Rajiv Veeraraghvan](https://www.linkedin.com/in/rajiv-veeraraghavan/)   
-
 ## Abstract 
 
 Amplero is an Artificial Intelligence Marketing (AIM) company that enables business-to-consumer (B2C) marketers at global brands to optimize customer lifetime value at a scale that is not humanly possible. 
@@ -33,7 +28,6 @@ We chose to do this project with Amplero as we wanted a chance to work with time
 
 The package is organized as follows:
 ```
-
 Capstone (master)
 |
 |----- CodeBase
@@ -152,7 +146,6 @@ For running and replicating the results and algorithm, install all the packages 
 You can use a larger dataset or a different dataset but make sure that the column name and column type remains the same. Any other change in the new dataset might reduce the chances of reproducibility.
 
 
-
 ## Python Libraries used for this project 
 	Matplotlib - for data visualization
 	Numpy - for data processing
@@ -167,4 +160,3 @@ You can use a larger dataset or a different dataset but make sure that the colum
 	StringIO - for Reading and writing strings as files 
 	statistics - for exploratory analytics 
 	statsmodels - for experimenting with arima model
-
