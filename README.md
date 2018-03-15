@@ -54,6 +54,8 @@ Capstone (master)
 |     |     KNN.png
 |     |     SVC.png
 |     |     VC.png
+|     |     AWS.png
+|     |     ETL.png
 |     |     
 |----- InterimReports
 |     |     
