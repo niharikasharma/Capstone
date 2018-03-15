@@ -2,6 +2,9 @@
 # README.md
 
 Data 
+
+Note - We have not added any time series .csv file. We are only uploading the compressed versions for Data_SMS_0.csv and rechargeANDvoice.csv as these are the only files under 100MB which is GitHub's file size limit. 
+
 	Data_SMS_0.csv or Data_SMS_0.csv.gz (compressed) 
 		Consist of the following time series -  
 			Data in KB - CompactDataKBPerDayTimeSeries
@@ -20,8 +23,9 @@ Data
 			OutboundSMSNetworkPageRankLast7DaysTimeSeries  
 			OutboundSMSNetworkPageRankQuantileLast7DaysTimeSeries  
 
-entity_ids_used.csv
-	Consist of Entity IDs that we focused on for this project out of 1M users. 
+	entity_ids_used.csv
+		Consist of Entity IDs that we focused on for this project out of 1M users. 
+
 
 Data_Extraction (Data_Extraction directory)
 	social_TS.ipynb
@@ -32,6 +36,7 @@ Data_Extraction (Data_Extraction directory)
 
 	usage_TS.ipynb
 		Extract usage(data in KB and SMS) data and save it in Data_SMS_0.csv.gz compressed file. Extracted from the usage*.jsonish.gz files that contains usage information for each entity. The usage is according to SMS, Data, and Voice. These time series are nested. The idea is that SMS usage time series can be sub-divided in component time series according to a finer-grained classification of usage: inbound SMS, outbound SMS, outbound SMS to international recipients, inbound SMS from international senders, etc. and similarly for other dimensions of usage.
+
 
 Model
 	Voting Classifier - Voting_Classifier.ipynb
@@ -50,8 +55,8 @@ Model
 
 		The best result is using Voting Classifier with Best Models: RBF SVC, Logistic Regression, and KNN with soft voting [3, 2, 1] having ~0.80 as the final score. 
 
-    Neural Network - neural_network.ipynb
-        This file contains code for following components:
+	Neural Network - neural_network.ipynb
+        		This file contains code for following components:
 	        1. Data Cleaning
 	        2. Feature extraction - converting the timeseries to a feature representation
 	        3. Undersampling the majority class
