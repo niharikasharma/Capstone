@@ -1,7 +1,7 @@
 # DATA 591 A Wi 18: Data Science Capstone II- Project Implementation
 # README.md
 
-Data 
+## Data 
 
 Note - We have not added any time series .csv file. We are only uploading the compressed versions for Data_SMS_0.csv and rechargeANDvoice.csv as these are the only files under 100MB which is GitHub's file size limit. 
 
@@ -27,7 +27,8 @@ Note - We have not added any time series .csv file. We are only uploading the co
 		Consist of Entity IDs that we focused on for this project out of 1M users. 
 
 
-Data_Extraction (Data_Extraction directory)
+## Data_Extraction (Data_Extraction directory)
+
 	social_TS.ipynb
 		Extract Social data and save it in Social1.csv.gz compressed file. Extracted from the social*.jsonish.gz files that contains time series of social network attributes for each entity. The social networks are constructed from the voice and SMS traffic.
 
@@ -38,7 +39,7 @@ Data_Extraction (Data_Extraction directory)
 		Extract usage(data in KB and SMS) data and save it in Data_SMS_0.csv.gz compressed file. Extracted from the usage*.jsonish.gz files that contains usage information for each entity. The usage is according to SMS, Data, and Voice. These time series are nested. The idea is that SMS usage time series can be sub-divided in component time series according to a finer-grained classification of usage: inbound SMS, outbound SMS, outbound SMS to international recipients, inbound SMS from international senders, etc. and similarly for other dimensions of usage.
 
 
-Model
+## Model
 	Voting Classifier - Voting_Classifier.ipynb
 		This file contains code for following components:
 		1. Data clean up 
@@ -56,7 +57,7 @@ Model
 		The best result is using Voting Classifier with Best Models: RBF SVC, Logistic Regression, and KNN with soft voting [3, 2, 1] having ~0.80 as the final score. 
 
 	Neural Network - neural_network.ipynb
-        		This file contains code for following components:
+        	This file contains code for following components:
 	        1. Data Cleaning
 	        2. Feature extraction - converting the timeseries to a feature representation
 	        3. Undersampling the majority class
@@ -65,7 +66,7 @@ Model
 	        6. Testing the performance - AUC, precision, recall
 
 
-Python Libraries used for this project - 
+## Python Libraries used for this project - 
 	Matplotlib - for data visualization
 	Numpy - for data processing
 	Pandas - for data processing
