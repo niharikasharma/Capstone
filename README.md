@@ -37,7 +37,6 @@ Capstone (master)
 |     |     README.md
 |     |     Voting_Classifier.ipynb
 |     |     entity_ids_used.csv
-|     |     exploratory_analytics.ipynb
 |     |     neural_network.ipynb
 |     |     rechargeANDvoice.csv.gz
 |     |   
