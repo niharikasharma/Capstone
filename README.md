@@ -40,10 +40,13 @@ Capstone (master)
 |     |     exploratory_analytics.ipynb
 |     |     neural_network.ipynb
 |     |     rechargeANDvoice.csv.gz
+|     |   
 |     |----- Data_Extraction
+|     |     |     
 |     |     |     social_TS.ipynb
 |     |     |     state_recharge_voice_TS.ipynb
 |     |     |     usage_TS.ipynb
+|     |     |     
 |     |   
 |----- Images
 |     |     
@@ -66,6 +69,7 @@ Capstone (master)
 |     |     
 | LICENSE    
 | README.md
+| Final_Report.pdf
 ```
 
 ## Data 
