@@ -1,5 +1,10 @@
 # Capstone
 
+## Contributors 
+[Khyati Parekh](https://www.linkedin.com/in/khyatiparekh/)  
+[Niharika Sharma](https://www.linkedin.com/in/niharikasharma1/)   
+[Rajiv Veeraraghvan](https://www.linkedin.com/in/rajiv-veeraraghavan/)   
+
 ## Abstract 
 
 Amplero is an Artificial Intelligence Marketing (AIM) company that enables business-to-consumer (B2C) marketers at global brands to optimize customer lifetime value at a scale that is not humanly possible. 
